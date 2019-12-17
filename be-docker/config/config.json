@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": null,
+    "database": "docker_db",
+    "host": "localhost",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  },
+  "docker": {
+    "username": "postgres",
+    "password": null,
+    "database": "docker_db",
+    "host": "db",
+    "dialect": "postgres",
+    "operatorsAliases": false
+  }
+}

@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  frontend:
+    build: ./fe-docker
+    ports: 
+      - "3000:3000"
+    container_name: frontend-docker
+    restart: always
+    links: 
+      - backend
+
+  backend:
+    build: ./be-docker
+    ports: 
+      - "8080:8080"
+    container_name: backend-docker
+    restart: always
+    links: 
+      - db
+
+  db:
+    image: postgres:11.6-alpine
+    ports: 
+      - "5432:5432"
+    container_name: database-docker
+    restart: always
+    
+
+  
