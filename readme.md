@@ -8,7 +8,7 @@
 5. NODE_ENV=docker node_modules/.bin/sequelize db:seed:all
 
 ## Intro
-This repo contains an example of dockerizing a full stack application. Please have a look at my blog if you want to know how to create it
+This repo contains an example of dockerizing a full stack application. Please have a look at my [blog](https://medium.com/@siddharth.lakhara/dockerizing-a-full-stack-js-app-ceb99411996e) if you want to know how to create it
 
 ## Tech stack
  - Frontend - ReactJs
